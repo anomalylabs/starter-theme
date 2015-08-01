@@ -10,7 +10,9 @@
 {% include "theme::partials/navigation" %}
 
 <div id="content">
-    {% block content %}{% endblock %}
+    <div class="container">
+        {% block content %}{% endblock %}
+    </div>
 </div>
 
 {% include "theme::partials/footer" %}
