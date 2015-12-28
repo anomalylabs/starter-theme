@@ -18,7 +18,7 @@
 
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-            {{ page_nav({'list_class': 'nav navbar-nav navbar-right'}) }}
+            {{ page_nav().listClass('nav navbar-nav navbar-right').render()|raw }}
         </div>
         <!-- /.navbar-collapse -->
     </div>
