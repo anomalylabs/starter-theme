@@ -44,7 +44,7 @@
 
             <div class="row">
                 <div class="col-lg-12">
-                    Copyright &copy; Your Website {{ 'now'|date("Y") }}
+                    Copyright &copy; {{ setting_value('streams::business') ? setting_value('streams::business') : setting_value('streams::name') }} {{ 'now'|date("Y") }}
                 </div>
             </div>
 
